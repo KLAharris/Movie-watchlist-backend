@@ -20,6 +20,7 @@ services:
       jwtExpiresIn: 7d
     depends_on:
       - db
+    restart: always
 
 volumes:
   db_data:
